@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function TextForm(props){
     const [text, setText] = useState("Enter Text Here");
